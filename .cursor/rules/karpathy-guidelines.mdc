@@ -1,0 +1,13 @@
+---
+description: Andrej Karpathy Inspired Coding Guidelines - Low Token & High Velocity
+globs: **/*
+---
+# Core Principles
+1. **Radical Simplicity:** Write the simplest possible code that works. No premature abstractions, no interfaces/factories for single implementations.
+2. **Flat over Nested:** Keep folder structures shallow. Avoid deep sub-packages unless strictly necessary.
+3. **Colocation:** Keep models, schemas, and routes per feature/module simple. Prefer SQLModel to combine SQLAlchemy and Pydantic in a single class.
+4. **Zero Fluff / Token Economy:**
+   - Do not write verbose comments explaining obvious code.
+   - Return concise, production-ready code without placeholder walls.
+   - Only modify or generate files explicitly requested.
+5. **HCI First (UI):** Every UI component must follow Fitts's Law (large touch targets for Emergency) and Cognitive Load reduction (max 3-4 primary actions per screen).

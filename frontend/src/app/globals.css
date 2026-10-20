@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: #f4eee4;
+  color: #1b1510;
+  font-family: Figtree, system-ui, sans-serif;
+}
+
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -48px;
+  z-index: 50;
+  border-radius: 8px;
+  background: #1b1510;
+  color: #fff;
+  padding: 12px 16px;
+  min-height: 48px;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+.tap {
+  min-height: 48px;
+  min-width: 48px;
+}
