@@ -1,0 +1,110 @@
+1. Identifying Stakeholders
+
+    Pet Owners (End Users): They use the website to find vets, call pet taxis, book pet hotels/sitters, and buy pet supplies.
+
+    Service Providers:
+
+        Veterinarians: Answer questions, give online consultations, and take clinic appointments.
+
+        Pet Taxi Drivers: Transport pets safely from one place to another.
+
+        Pet Hotels & Individual Sitters: Take care of pets for money when owners are away.
+
+    Suppliers / Pet Shops: Sell pet food and basic equipment on the platform.
+
+    Project Team & Admins: Developers, UI/UX designers, and managers who build the website, check user documents, and keep the system safe.
+
+2. Gathering Business Requirements
+
+    How we gather information: We use online surveys with pet owners and short interviews with vets and pet sitters.
+
+    What is the purpose of the website?
+    It is an all-in-one service and community platform for pets. It brings together veterinary care, pet transport (pet taxi), pet sitting/hotels, and pet supplies in one place.
+
+    Who is the target audience?
+
+        Age: 18 to 65 years old.
+
+        Profile: Pet owners, animal lovers, vets, and pet care providers.
+
+        Tech Level: Basic smartphone and internet users (the design must be very simple for everyone).
+
+    Are there any special functions?
+
+        One-Click Emergency Button: Quickly finds the nearest open vet and calls a pet ambulance.
+
+        Live GPS Tracking: Shows the pet taxi location on a live map.
+
+        Pet Hotel & Sitter Booking: Allows users to rent a room in a pet hotel or hire a trusted individual sitter.
+
+        Ask a Vet (Q&A): A forum where owners ask questions and verified vets answer.
+
+        Digital Pet Card: Keeps vaccine dates and medical history in the user profile.
+
+3. Defining Functional Requirements
+
+    User & Pet Profile System: Users can sign up, log in, and create a digital health card for their pets (age, breed, vaccines).
+
+    Vet Q&A and Appointment: Users can upload photos to ask questions to vets, book clinic visits, or make video calls.
+
+    Pet Taxi Booking: Users can select start and end locations on a map, see the price, and call a vehicle for their pet.
+
+    Pet Hotel & Sitter Reservation (New Module): Users can filter hotels or home sitters by date, price, and location, read reviews, and book a stay. Sitters can send daily photos and videos to the owner.
+
+    Needs & Solidarity Board: Users can buy pet food/equipment or post ads for lost pets, adoption, and urgent blood needs.
+
+    Safe Payment & Admin Panel: Money is kept safely in a pool (escrow) until the service is finished. Admins approve vet diplomas and sitter IDs.
+
+4. Identifying Non-Functional Requirements
+
+    Usability (HCI Focus): The interface must be clean, simple, and stress-free. In an emergency, a panicked pet owner must find the "Emergency Button" in 1 second (big red button, clear icons).
+
+    Performance: Pages must load in less than 2 seconds. Map and GPS tracking must work in real time without delay.
+
+    Accessibility: The website must follow WCAG standards (good color contrast, readable font sizes, and screen reader support).
+
+    Security & Privacy: All user data and credit card payments must be protected with SSL encryption. Sitter and vet identities must be verified.
+
+    Scalability & Responsiveness: The design must be Mobile-First (works perfectly on phones, tablets, and desktops) and support thousands of active users at the same time.
+
+5. Creating User Scenarios and Use Cases
+
+    Scenario 1: Calling an Emergency Pet Taxi
+
+        User: A pet owner whose dog is sick at night and who has no car.
+
+        Action: The user opens the app and clicks the "Emergency" button.
+
+        System Support: The website finds the nearest open vet clinic, calls a pet taxi to the user's home, and sends a notification to the vet.
+
+    Scenario 2: Booking a Pet Sitter & Transport
+
+        User: A cat owner going on a 3-day business trip.
+
+        Action: The user goes to the "Pet Hotel & Sitter" module, selects dates, chooses a verified home sitter, and checks the "Add Pet Taxi" box.
+
+        System Support: The system sends the cat's digital vaccine card to the sitter, processes the payment safely, and schedules a pet taxi for pickup.
+
+6. Prototyping and Mockups
+
+    We create low-fidelity wireframes and interactive prototypes using Figma.
+
+    The prototype shows the Site Map (Dashboard, Emergency, Vet, Pet Taxi, Hotel/Sitter, Supplies, Profile) and basic navigation buttons.
+
+    We show these screens to 5 pet owners and 2 vets to test if the menus are easy to understand before coding.
+
+7. Preparing the Requirement Document
+
+    We write a clear Software Requirements Specification (SRS) document that includes all steps above.
+
+    In-Scope (Proje Dahili): Web app design, vet Q&A, pet taxi calling, pet hotel/sitter booking, and basic pet supplies.
+
+    Out-of-Scope (Proje Dışı): Selling prescription medical drugs (illegal online) and physical hardware production (like GPS collars).
+
+8. Validation and Approval of Requirements
+
+    We organize a final review meeting with stakeholders (pet owners, vets,sitters, and the project instructor).
+
+    We check if all user needs and HCI usability rules are met.
+
+    After fixing small errors, stakeholders formally approve the document, and we start the design/coding phase.
